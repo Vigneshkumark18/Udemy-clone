@@ -247,4 +247,10 @@ body {
     .navbar__s4 {
         display: block;
     }
+
+    .sale-image__offer{
+        padding: 5px;
+        left: 10px;
+        top: 30px;
+    }
 }
