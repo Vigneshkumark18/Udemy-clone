@@ -1,0 +1,147 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s1__title{
+    color: #A52FF6;
+}
+
+.navbar__s2{
+    border: solid black 1px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories{
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+
+.categories p{
+    background-color:#A52FF6 ;
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.sale-image img{
+    width: 100%;
+}
+
+.recommanded{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.recommanded__container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course__card{
+    width: 270px;
+}
+
+.course__card img{
+    height: 60%;
+    width: 100%;
+}
+
+.topics{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.topics__container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.popular__container{
+    margin-top: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.popular__course__card{
+    width: 270px;
+}
+
+.popular__course__card img{
+    height: 60%;
+    width: 100%;
+}
+
+.footer{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+.footer-one{
+    display: flex;
+    padding: 10px;
+}
+
+.footer-one p{
+    margin: 20px;
+}
+
+.footer-two{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
