@@ -13,11 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
     <!-- Navbar -->
     <div class="navbar">
         <div class="navbar__s1">
@@ -31,7 +32,15 @@
 
         <div class="navbar__s3">
             <p>Courses</p>
-            <p>My Learning</p>
+
+            <!-- <p>My Learning</p> -->
+            <div class="mylearning">
+                <p>My Learning</p>
+                <div class="mylearning__popup">
+                    <p>You did not purchase anything yet</p>
+                </div>
+            </div>
+
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-solid fa-bell"></i>
             <i class="fa-solid fa-user"></i>
@@ -50,8 +59,15 @@
         <p>Marketing</p>
     </div>
 
+    <!-- Sale-image -->
+
     <div class="sale-image">
         <img src="./Images/sale-image.png" alt="sale-image">
+
+        <div class="sale-image__offer">
+            <h3>Udemy Flash Sale 24 hours to save.</h3>
+            <p>Get the top Courses for just 499.Just one day to save but a lifetime to learn</p>
+        </div>
 
     </div>
 
@@ -212,7 +228,7 @@
     </div>
 
     <!-- Footer -->
-     
+
     <div class="footer">
         <div class="footer__one">
 
@@ -238,7 +254,6 @@
             <h1>Udemy</h1>
             <p>&copy; Udemy,Inc</p>
         </div>
-
     </div>
 </body>
 
